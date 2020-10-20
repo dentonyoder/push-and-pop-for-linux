@@ -1,0 +1,5 @@
+function pop()
+{
+	cd $(tail -n 1 ~/.dydir)
+	pop.py
+}
